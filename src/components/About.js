@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 import dp from "../assets/dp.jpg";
+import Resume from "../assets/resume.pdf";
 import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -71,6 +72,19 @@ function About() {
                   }
                   icon={faInstagram}
                 />
+                <br />
+                <br />
+                <div>
+                  <span
+                    className="border border-1 border-dark p-2"
+                    onClick={() => {
+                      window.open(Resume, "_blank");
+                    }}
+                  >
+                    Resume
+                  </span>
+                </div>
+                <br />
               </div>
               <p>Scroll down to know more about me</p>
               <FontAwesomeIcon icon={faArrowDown} />
