@@ -76,7 +76,7 @@ function About() {
                 <br />
                 <div>
                   <span
-                    className="border border-1 border-dark p-2"
+                    className="border border-1 border-dark p-2 myresume"
                     onClick={() => {
                       window.open(Resume, "_blank");
                     }}
