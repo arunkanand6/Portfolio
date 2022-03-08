@@ -1,0 +1,31 @@
+.about {
+  background-color: #35e4e4;
+}
+.about-logo {
+  width: 10%;
+  height: 10%;
+}
+.about-text {
+  font-size: larger;
+}
+[data-bs-toggle="collapse"].collapsed .if-not-collapsed {
+  display: none;
+}
+[data-bs-toggle="collapse"]:not(.collapsed) .if-collapsed {
+  display: none;
+}
+
+.myicon {
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 20%;
+}
+.myicon:hover {
+  color: white;
+  background-color: black;
+}
+
+.myicon:active {
+  background-color: blue;
+}
