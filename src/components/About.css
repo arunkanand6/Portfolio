@@ -1,5 +1,7 @@
 .about {
   background-color: #35e4e4;
+  /* background-color: white; */
+  /* background-color: black; */
 }
 .about-logo {
   width: 10%;
@@ -24,8 +26,13 @@
 .myicon:hover {
   color: white;
   background-color: black;
+  cursor: pointer;
 }
 
 .myicon:active {
   background-color: blue;
+}
+
+.myresume:hover {
+  cursor: pointer;
 }

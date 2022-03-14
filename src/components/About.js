@@ -110,6 +110,10 @@ function About() {
                         <li>Figma</li>
                         <li>Adobe XD</li>
                       </ul>
+                      Certifications
+                      <ul>
+                        <li>Google UX Design Specialization</li>
+                      </ul>
                     </p>
                   </div>
                 </div>

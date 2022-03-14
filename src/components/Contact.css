@@ -1,0 +1,17 @@
+.mycard {
+  /* border: 1px solid black; */
+  margin: 16px;
+  border-radius: 1% 1% 1% 1%;
+  width: max-content;
+  /* overflow: hidden; */
+}
+.mycard-title {
+  background-color: blue;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.mycard-body {
+  background-color: black;
+  color: white;
+  border-radius: 0px 0px 5px 5px;
+}

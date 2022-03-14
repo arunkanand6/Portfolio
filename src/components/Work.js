@@ -9,14 +9,14 @@ import roadtukadai_casestudy from "../assets/roadtukadai_casestudy.pdf";
 
 function Work() {
   return (
-    <div>
-      <h1 className="text-center my-5">My Work</h1>
+    <div className="work">
+      <h1 className="text-center py-5">My Work</h1>
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-sm-6  col-xs-12 d-flex">
             <div className="card">
               <img
-                className="card-img-top"
+                className="card-img-top border border-dark"
                 src={HomeMadeLogo}
                 alt="Home Made"
               />
@@ -30,7 +30,7 @@ function Work() {
                 where they decide everything they want.
                 <br />
                 <button
-                  className="btn btn-primary text-white my-3 ms-auto"
+                  className="btn btn-primary text-white my-3 ms-auto shadow-md"
                   onClick={() => {
                     window.open(homemade_casestudy, "_blank");
                   }}
@@ -48,7 +48,7 @@ function Work() {
           <div className="col-lg-4 col-sm-6  col-xs-12 d-flex">
             <div className="card">
               <img
-                className="card-img-top"
+                className="card-img-top border border-dark"
                 src={BetterPlaceLogo}
                 alt="Home Made"
               />
@@ -61,7 +61,7 @@ function Work() {
                 the community.
                 <br />
                 <button
-                  className="btn btn-primary text-white my-3 ms-auto"
+                  className="btn btn-primary text-white my-3 ms-auto shadow-md"
                   onClick={() => {
                     window.open(betterplace_casestudy, "_blank");
                   }}
@@ -82,7 +82,7 @@ function Work() {
           <div className="col-lg-4 col-sm-6  col-xs-12 d-flex">
             <div className="card">
               <img
-                className="card-img-top"
+                className="card-img-top border border-dark"
                 src={RoadtuKadaiLogo}
                 alt="Home Made"
               />
@@ -95,7 +95,7 @@ function Work() {
                 certain location.
                 <br />
                 <button
-                  className="btn btn-primary text-white my-3 ms-auto"
+                  className="btn btn-primary text-white my-3 ms-auto shadow-md"
                   onClick={() => {
                     window.open(roadtukadai_casestudy, "_blank");
                   }}

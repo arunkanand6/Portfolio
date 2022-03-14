@@ -9,6 +9,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-sm mynav sticky-top">
       <img
         className="mynav-logo ms-5 me-auto navbar-brand"
+        role="button"
         src={Logo}
         alt="not available"
         onClick={() => {
@@ -36,6 +37,15 @@ function NavBar() {
               work
             </NavLink>
           </li>
+          {/* <li className="nav-item">
+            <NavLink
+              activeClassName="active"
+              className="mynav-link p-1 m-3"
+              to="/contact"
+            >
+              Contact
+            </NavLink>
+          </li> */}
         </ul>
       </div>
     </nav>
