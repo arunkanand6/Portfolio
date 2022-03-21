@@ -21,10 +21,10 @@ export function Contact() {
               <div className="col-sm-6 col-xs-12 pe-5 py-5">
                 <form
                   name="contact"
+                  netlify
+                  netlify-honeypot="bot-field"
                   method="POST"
-                  data-netlify="true"
                   onSubmit="submit"
-                  data-netlify-honeypot="bot-field"
                 >
                   <input className="d-none" name="botfield" />
                   <label htmlFor="name" classNam="my-2">

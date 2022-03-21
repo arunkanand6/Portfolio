@@ -45,7 +45,7 @@ function NavBar() {
               work
             </NavLink>
           </li>
-          <li className="nav-item mx-auto my-2">
+          {/* <li className="nav-item mx-auto my-2">
             <NavLink
               activeClassName="active"
               className="mynav-link p-1 m-3"
@@ -53,7 +53,7 @@ function NavBar() {
             >
               Contact
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
