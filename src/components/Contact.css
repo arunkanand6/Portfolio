@@ -1,17 +1,37 @@
-.mycard {
-  /* border: 1px solid black; */
-  margin: 16px;
-  border-radius: 1% 1% 1% 1%;
-  width: max-content;
-  /* overflow: hidden; */
+.vertical-center {
+  height: 20px;
+  line-height: 20px;
 }
-.mycard-title {
-  background-color: blue;
-  color: white;
-  border-radius: 5px 5px 0px 0px;
+.ln {
+  line-height: 20px;
 }
-.mycard-body {
-  background-color: black;
-  color: white;
-  border-radius: 0px 0px 5px 5px;
+.myinput {
+  background-color: #35e4e4;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+.myinput:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+.myinput {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: min-content;
+}
+.mytextarea {
+  background-color: #35e4e4;
+  overflow: hidden;
+  width: 100%;
+  resize: none;
+  height: 10vh;
+}
+.contact {
+  background-color: #35e4e4;
 }

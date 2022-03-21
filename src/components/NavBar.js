@@ -6,7 +6,7 @@ import "./NavBar.css";
 function NavBar() {
   const navigate = useNavigate();
   return (
-    <nav className="navbar navbar-expand-sm mynav sticky-top">
+    <nav className="navbar navbar-light navbar-expand-md mynav sticky-top">
       <img
         className="mynav-logo ms-5 me-auto navbar-brand"
         role="button"
@@ -16,9 +16,17 @@ function NavBar() {
           navigate("/");
         }}
       />
-      <div class="ms-auto me-5">
-        <ul className="nav nav-pills">
-          <li className="nav-item">
+      <button
+        className="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarcollapse"
+        type="button"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarcollapse">
+        <ul className="navbar-nav ms-auto">
+          <li className="nav-item mx-auto my-2">
             <NavLink
               activeClassName="active"
               color="yellow"
@@ -28,7 +36,7 @@ function NavBar() {
               About
             </NavLink>
           </li>
-          <li className="nav-item">
+          <li className="nav-item mx-auto my-2">
             <NavLink
               activeClassName="active"
               className="mynav-link p-1 m-3"
@@ -37,7 +45,7 @@ function NavBar() {
               work
             </NavLink>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item mx-auto my-2">
             <NavLink
               activeClassName="active"
               className="mynav-link p-1 m-3"
@@ -45,7 +53,7 @@ function NavBar() {
             >
               Contact
             </NavLink>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>

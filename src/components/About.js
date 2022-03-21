@@ -17,7 +17,7 @@ function About() {
       <div className="container">
         <div className="row">
           <img
-            className="col-md-4 col-sm-12 py-5 my-5 bg-dark"
+            className="col-md-4 col-sm-12 py-5 my-5 bg-dark rounded-3"
             src={dp}
             alt="not available"
           />

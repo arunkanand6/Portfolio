@@ -22,7 +22,3 @@
 .active {
   border-bottom: 5px solid #35e4e4;
 }
-
-.mynav-link .active:hover {
-  background-color: white;
-}
