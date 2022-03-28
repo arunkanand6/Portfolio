@@ -95,10 +95,10 @@ export function Contact() {
               </div>
               <div className="col-sm-6 col-xs-12 pe-5 py-5">
                 {!filled && (
-                  <form onSubmit={handleSubmit} netlify data-netlify="true">
+                  <form onSubmit={handleSubmit}>
                     <input
                       type="hidden"
-                      name="form-name"
+                      name="contact"
                       value="name_of_my_form"
                     />
                     <label htmlFor="name" className="my-2">

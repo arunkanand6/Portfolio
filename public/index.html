@@ -28,51 +28,21 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <form onSubmit="submit" netlify data-netlify="true">
-      <input type="hidden" name="form-name" value="name_of_my_form" />
-      <label htmlFor="name" className="my-2"> Name </label>
-      <input
-        className="my-2 myinput"
-        type="text"
-        name="name"
-        id="name"
-        placeholder="enter your name here"
-      />
-      {
-      <div className="mywarning">Name should be 3 to 20 characters</div>
-      }
-      <label htmlFor="mobile" className="my-2"> Mobile No </label>
-      <input
-        className="my-2  myinput"
-        type="tel"
-        name="mobile"
-        id="mobile"
-        placeholder="enter your mobile number"
-      />
-      {
-      <div className="mywarning">Enter a valid mobile number</div>
-      }
-      <label htmlFor="email" className="my-2"> Email </label>
-      <input
-        className="my-2  myinput"
-        type="email"
-        name="email"
-        id="email"
-        placeholder="example@address.com"
-      />
-      {
-      <div className="mywarning">Enter a valid email id</div>
-      }
-      <label htmlFor="message" className="my-2"> Message </label>
-      <textarea
-        name="message"
-        id="message"
-        value="{data.message}"
-        onChange="{handleChange}"
-        className="mytextarea my-2"
-      ></textarea>
-      <div className="text-center">
-        <button className="btn btn-primary my-2" type="submit">Submit</button>
+    <form onSubmit="submit" netlify data-netlify="true" name="contact">
+      <input type="hidden" name="form-name" value="contact" />
+      <label for="name"> Name </label>
+      <input type="text" name="name" />
+      <div>Name should be 3 to 20 characters</div>
+      <label for="mobile"> Mobile No </label>
+      <input type="tel" name="mobile" />
+      <div>Enter a valid mobile number</div>
+      <label for="email"> Email </label>
+      <input type="email" name="email" />
+      <div>Enter a valid email id</div>
+      <label htmlFor="message"> Message </label>
+      <textarea name="message" id="message"></textarea>
+      <div>
+        <button type="submit">Submit</button>
       </div>
     </form>
     <div id="root"></div>
