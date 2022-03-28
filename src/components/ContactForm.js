@@ -34,7 +34,7 @@ function ContactForm() {
   return (
     <form
       data-netlify="true"
-      name="pizzaOrder"
+      name="form-name"
       method="post"
       onSubmit={handleSubmit}
     >

@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-<form data-netlify="true" name="pizzaOrder" method="post" onSubmit="submit">
+<form data-netlify="true" name="form-name" method="post" onSubmit="submit">
   <input type="hidden" name="form-name" value="pizzaOrder" />
   <label>
     What order did the pizza give to the pineapple?
