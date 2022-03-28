@@ -1,9 +1,6 @@
 import { useState } from "react";
-import { useNavigate } from "react-router";
 
 function ContactForm() {
-  const navigate = useNavigate();
-
   const [data, setData] = useState({
     order: "",
   });
