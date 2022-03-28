@@ -4,10 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-<form name="contacts" netlify netlify-honeypot="bot-field" hidden>
-  <input type="text" name="name" />
-  <input type="email" name="email" />
-  <textarea name="message"></textarea>
+<form data-netlify="true" name="pizzaOrder" method="post" onSubmit="submit">
+  <input type="hidden" name="form-name" value="pizzaOrder" />
+  <label>
+    What order did the pizza give to the pineapple?
+    <input name="order" type="text" />
+  </label>
+  <input type="submit" />
 </form>;
 
 ReactDOM.render(
