@@ -168,7 +168,7 @@ export function Contact() {
                     </div>
                   </form>
                 )}
-                {filled && (
+                {
                   <div>
                     <img src={success} alt="success" className="col-12" />
                     <p className="text-center">
@@ -176,7 +176,7 @@ export function Contact() {
                       Thank you
                     </p>
                   </div>
-                )}
+                }
               </div>
             </div>
           </div>
