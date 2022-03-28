@@ -95,8 +95,12 @@ export function Contact() {
               </div>
               <div className="col-sm-6 col-xs-12 pe-5 py-5">
                 {!filled && (
-                  <form onSubmit={handleSubmit}>
-                    <input className="d-none" name="botfield" />
+                  <form onSubmit={handleSubmit} netlify data-netlify="true">
+                    <input
+                      type="hidden"
+                      name="form-name"
+                      value="name_of_my_form"
+                    />
                     <label htmlFor="name" className="my-2">
                       Name
                     </label>

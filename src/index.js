@@ -4,7 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-<form onSubmit="Submit">
+<form
+  name="contact"
+  method="POST"
+  onSubmit="Submit"
+  netlify
+  data-netlify="true"
+>
   <input className="d-none" name="botfield" />
   <label htmlFor="name" className="my-2">
     Name
