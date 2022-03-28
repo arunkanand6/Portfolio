@@ -11,7 +11,7 @@ import reportWebVitals from "./reportWebVitals";
   netlify
   data-netlify="true"
 >
-  <input className="d-none" name="botfield" />
+  <input type="hidden" name="form-name" value="name_of_my_form" />
   <label htmlFor="name" className="my-2">
     Name
   </label>
