@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 import Logo from "../assets/logo.png";
 import success from "../assets/success.gif";
+import ContactForm from "./ContactForm";
 
 export function Contact() {
   const [data, setData] = useState({
@@ -181,6 +182,7 @@ export function Contact() {
           </div>
         </div>
       </div>
+      <ContactForm />
       <hr />
       <div style={{ height: "20px" }}></div>
     </div>
