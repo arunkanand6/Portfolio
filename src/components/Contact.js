@@ -58,12 +58,14 @@ export function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log(data);
+    console.log(valid);
     if (!invalid) setInvalid(true);
     if (valid.name && (valid.mobile || valid.email)) {
       fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...this.state }),
+        body: encode({ "form-name": "contact", ...data }),
       })
         .then(() => setFilled(true))
         .catch((error) => alert(error));
@@ -95,7 +97,7 @@ export function Contact() {
               </div>
               <div className="col-sm-6 col-xs-12 pe-5 py-5">
                 {!filled && (
-                  <form onSubmit={handleSubmit}>
+                  <form name="contact" onSubmit={handleSubmit}>
                     <input
                       type="hidden"
                       name="contact"
